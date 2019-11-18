@@ -1,0 +1,36 @@
+/* pages/viewBox/view/view.wxss */
+.title {
+  color: #333;
+  font-size: 32rpx;
+  margin: 20rpx 0;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 200rpx;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box:nth-child(1) {
+  background-color: rgb(31, 162, 20);
+}
+.box:nth-child(2) {
+  background-color: rgb(33, 108, 206);
+}
+.box:nth-child(3) {
+  background-color: rgb(237, 237, 237);
+}
+
+.hover-class {
+  background-color: gray !important;
+  color: red
+}

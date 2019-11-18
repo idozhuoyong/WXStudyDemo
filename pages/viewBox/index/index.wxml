@@ -1,0 +1,5 @@
+<!--pages/viewBox/index/index.wxml-->
+<view class="container">
+    <button class="button" type="default" bindtap="viewTap" data-pagename="view">view</button>
+    <button class="button" type="default" bindtap="viewTap" data-pagename="scrollView">scroll-view</button>
+</view>

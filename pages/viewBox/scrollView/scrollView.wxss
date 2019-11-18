@@ -1,0 +1,20 @@
+/* pages/viewBox/scrollView/scrollView.wxss */
+.scroll-view-row {
+  display: flex;
+  flex-direction: row;
+  height: 400rpx;
+}
+.scroll-view-column {
+  display: flex;
+  flex-direction: column;
+  height: 400rpx;
+}
+.box {
+  width: 750rpx;
+  height: 400rpx;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}

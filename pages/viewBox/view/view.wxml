@@ -1,0 +1,32 @@
+<!--pages/viewBox/view/view.wxml-->
+<view class="container">
+  <view class="title">
+    <text>flex-direction: column</text>
+    <text>纵向布局</text>
+  </view>
+  <view class="column" hover-class="hover-class">
+    <!-- 
+      hover-class : 指定按下去的样式类，为 none 时，没有点击效果
+      hover-start-time : 按住后多久出现点击状态，单位 毫秒
+      hover-stay-time : 手指松开后，点击状态保留时间，单位 毫秒
+      hover-stop-propagation : 是否阻止本节点的祖先节点出现点击状态，默认 false
+     -->
+    <view class="box" 
+      hover-class="hover-class" 
+      hover-stop-propagation="true"
+      hover-start-time="50" 
+      hover-stay-time="200"
+      >A</view>
+    <view class="box">B</view>
+    <view class="box">C</view>
+  </view>
+  <view class="title">
+    <text>flex-direction: row</text>
+    <text>横向布局</text>
+  </view>
+  <view class="row">
+    <view class="box">A</view>
+    <view class="box">B</view>
+    <view class="box">C</view>
+  </view>
+</view>

@@ -1,7 +1,11 @@
 {
   "pages": [
+    "pages/viewBox/scrollView/scrollView",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/viewBox/index/index",
+    "pages/viewBox/view/view"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

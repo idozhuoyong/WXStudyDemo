@@ -1,4 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-
+  <view>
+    <button bindtap="viewBoxTap">视图容器</button>
+  </view>
 </view>
