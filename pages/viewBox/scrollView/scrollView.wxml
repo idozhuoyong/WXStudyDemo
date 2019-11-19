@@ -1,14 +1,16 @@
 <!--pages/viewBox/scrollView/scrollView.wxml-->
 <view class="container">
-  <scroll-view class="scroll-view-row" scroll-x="true">
-    <view class="box">A</view>
-    <view class="box">B</view>
-    <view class="box">C</view>
-  </scroll-view>
+  <view class="scroll-view-row">
+    <scroll-view enable-flex="true" class="scroll-view-row">
+      <view class="box">A</view>
+      <view class="box">B</view>
+      <view class="box">C</view>
+    </scroll-view>
+  </view>
 
-  <scroll-view class="scroll-view-column" scroll-y="true">
+  <!-- <scroll-view class="scroll-view-column" scroll-y="true">
     <view class="box">A</view>
     <view class="box">B</view>
     <view class="box">C</view>
-  </scroll-view>
+  </scroll-view> -->
 </view>
