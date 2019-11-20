@@ -1,16 +1,24 @@
 <!--pages/viewBox/scrollView/scrollView.wxml-->
 <view class="container">
-  <view class="scroll-view-row">
-    <scroll-view enable-flex="true" class="scroll-view-row">
+  <!--  -->
+  <view class="title">
+    <text>横向滚动</text>
+  </view>
+  <scroll-view class="scroll-view-row" enable-flex="true" scroll-x="true">
+    <view class="scroll-view-row">
       <view class="box">A</view>
       <view class="box">B</view>
       <view class="box">C</view>
-    </scroll-view>
+    </view>
+  </scroll-view>
+  <!--  -->
+  <view class="title">
+    <text>纵向滚动</text>
   </view>
-
-  <!-- <scroll-view class="scroll-view-column" scroll-y="true">
+  <scroll-view class="scroll-view-column" scroll-y="true">
     <view class="box">A</view>
     <view class="box">B</view>
     <view class="box">C</view>
-  </scroll-view> -->
+  </scroll-view>
+  
 </view>
