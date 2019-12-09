@@ -1,2 +1,8 @@
 <!--pages/viewBase/text/text.wxml-->
-<text>pages/viewBase/text/text.wxml</text>
+<view class="container2">
+  <view class="body-view">
+    <text>{{text}}</text>
+    <button bindtap="add" class="button">add line</button>
+    <button bindtap="remove" class="button">remove line</button>
+  </view>
+</view>
