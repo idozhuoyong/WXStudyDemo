@@ -1,1 +1,4 @@
 /* pages/viewBase/progress/progress.wxss */
+progress {
+  margin: 15rpx 0;
+}
