@@ -1,0 +1,10 @@
+<!--pages/viewBase/icon/icon.wxml-->
+<view class="container2">
+  <view wx:for="{{type}}" wx:for-item="itemType" wx:key="*this">
+    <block wx:for="{{size}}" wx:for-item="itemSize" wx:key="*this">
+      <block wx:for="{{color}}" wx:for-item="itemColor" wx:key="*this">
+        <icon type="{{itemType}}" size="{{itemSize}}" color="{{itemColor}}"></icon>
+      </block>
+    </block>
+  </view>
+</view>

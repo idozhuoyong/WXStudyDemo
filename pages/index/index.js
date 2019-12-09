@@ -18,9 +18,19 @@ Page({
   /**
    * 视图容器点击
    */
-  viewBoxTap: function() {
+  boxTap: function (event) {
+    let pageName = event.currentTarget.dataset.pageName;
     wx.navigateTo({
-      url: "../../pages/viewBox/index/index"
+      url: "../../pages/" + pageName + "/index/index"
+    })
+  },
+
+  /**
+   * 
+   */
+  startLogTap: function() {
+    wx.navigateTo({
+      url: '../../pages/logs/logs',
     })
   }
 })

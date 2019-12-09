@@ -1,0 +1,4 @@
+/* pages/viewBase/index/index.wxss */
+.button {
+  margin: 20rpx;
+}

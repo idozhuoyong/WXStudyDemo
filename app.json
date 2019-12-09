@@ -5,7 +5,11 @@
     "pages/viewBox/index/index",
     "pages/viewBox/view/view",
     "pages/viewBox/scrollView/scrollView",
-    "pages/viewBox/swiper/swiper"
+    "pages/viewBox/swiper/swiper",
+    "pages/viewBase/index/index",
+    "pages/viewBase/icon/icon",
+    "pages/viewBase/progress/progress",
+    "pages/viewBase/text/text"
   ],
   "window": {
     "backgroundTextStyle": "light",
