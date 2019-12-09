@@ -1,0 +1,4 @@
+<!--pages/viewBase/richText/richText.wxml-->
+<view class="container2">
+  <rich-text nodes="{{nodes}}"></rich-text>
+</view>

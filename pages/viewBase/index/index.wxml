@@ -3,4 +3,5 @@
     <button class="button" type="default" bindtap="viewTap" data-pagename="icon">icon</button>
     <button class="button" type="default" bindtap="viewTap" data-pagename="progress">progress</button>
     <button class="button" type="default" bindtap="viewTap" data-pagename="text">text</button>
+    <button class="button" type="default" bindtap="viewTap" data-pagename="richText">rich-text</button>
 </view>

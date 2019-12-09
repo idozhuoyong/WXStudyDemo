@@ -1,0 +1,6 @@
+/* pages/viewBase/richText/richText.wxss */
+.div_class {
+  margin: 15rpx;
+  padding: 15rpx;
+  border: 1px solid #efefef;
+}

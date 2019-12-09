@@ -9,7 +9,8 @@
     "pages/viewBase/index/index",
     "pages/viewBase/icon/icon",
     "pages/viewBase/progress/progress",
-    "pages/viewBase/text/text"
+    "pages/viewBase/text/text",
+    "pages/viewBase/richText/richText"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,6 +18,5 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
