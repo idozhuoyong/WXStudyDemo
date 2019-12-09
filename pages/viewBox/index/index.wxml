@@ -2,4 +2,5 @@
 <view class="container">
     <button class="button" type="default" bindtap="viewTap" data-pagename="view">view</button>
     <button class="button" type="default" bindtap="viewTap" data-pagename="scrollView">scroll-view</button>
+    <button class="button" type="default" bindtap="viewTap" data-pagename="swiper">swiper</button>
 </view>

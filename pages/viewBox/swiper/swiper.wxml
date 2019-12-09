@@ -1,0 +1,46 @@
+<!--pages/viewBox/swiper/swiper.wxml-->
+<view class="container">
+    <view class="swiper">
+        <!-- 
+            indicator-dots 指示点
+            circular 衔接滑动
+         -->
+         <swiper
+            indicator-dots="{{isShowIndicatorDots}}" 
+            autoplay="{{isAutoPlay}}"
+            circular="true"
+            current="1"
+            vertical=""
+            interval="2000"
+            display-multiple-items="1"
+            previous-margin="20rpx"
+            next-margin="20rpx"
+            >
+            <swiper-item wx:for="{{background}}" wx:for-item="itemName" wx:for-index="index" wx:key="*this">
+                <view class="swiper-item {{'swiper-item-text-'+(index+1)}}">{{itemName}}</view>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="page-section">
+        <view class="weui-cell">
+            <view class="weui-cell-left">指示点</view>
+            <view>
+              <switch 
+                type="switch" 
+                checked="true" 
+                data-item-key="isShowIndicatorDots"
+                bindchange="onHandlerChange"></switch>
+            </view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell-left">自动播放</view>
+            <view>
+              <switch
+                type="switch"
+                checked=""
+                data-item-key="isAutoPlay"
+                bindchange="onHandlerChange"></switch>
+            </view>
+        </view>
+    </view>
+</view>
