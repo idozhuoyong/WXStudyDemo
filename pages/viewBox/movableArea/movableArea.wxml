@@ -1,0 +1,9 @@
+<!--pages/viewBox/movableArea/movableArea.wxml-->
+<movable-area class="movable-area">
+  <movable-view class="movable-view" 
+    direction="all" 
+    inertia="true" 
+    out-of-bounds="true"
+    damping="20"
+    scale="true"></movable-view>
+</movable-area>

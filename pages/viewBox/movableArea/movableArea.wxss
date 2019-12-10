@@ -1,0 +1,11 @@
+/* pages/viewBox/movableArea/movableArea.wxss */
+.movable-area {
+  width: 750rpx;
+  height: 750rpx;
+  background-color: #efefef;
+}
+.movable-view {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #aff88f;
+}
