@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/viewBox/movableArea/movableArea",
     "pages/index/index",
     "pages/logs/logs",
     "pages/viewBox/index/index",
@@ -11,8 +10,8 @@
     "pages/viewBase/icon/icon",
     "pages/viewBase/progress/progress",
     "pages/viewBase/text/text",
-    "pages/viewBase/richText/richText"
-    
+    "pages/viewBase/richText/richText",
+    "pages/viewBox/movableArea/movableArea"
   ],
   "window": {
     "backgroundTextStyle": "light",
